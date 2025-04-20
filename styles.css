@@ -1,0 +1,122 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(10, 10, 94);
+  }
+  
+  .icono {
+    font-size: 1.9em;
+    padding-left: 20px;
+  }
+  
+  .linea {
+    background-color: aqua;
+    width: 5%;
+    height: 3px;
+  }
+  
+ .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+ }
+
+  .imagen img{
+    max-width: 100%; 
+    width: 200px;   
+    height: auto;
+    padding-top: 20px;
+  }
+  h3{
+    padding-left: 5%;
+    color: rgb(10, 10, 94);
+    display: flex;
+    align-items: flex-start;
+  }
+  .textomedio{
+    padding-left: 5px;
+  }
+  .imagen {
+    flex: 1 1 10%;
+  }
+  
+  .caja {
+    flex: 1 1 70%;
+  }
+  .simbolo{
+    color: blue;
+    
+  }
+  .detalles{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .fila-doble{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 6px;
+
+  } 
+  .titulo2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(10, 10, 94);
+    margin-top: 50px;
+  }
+  .barra-progreso {
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 5px;
+    height: 20px;
+    overflow: hidden;
+}
+
+  .progreso {
+    background-color: #543be3; 
+    height: 100%;
+    border-radius: 5px;
+}
+  .habilidad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px; /* espacio entre filas y columnas */
+}
+
+  .skill-item {
+  display: flex;
+  flex-direction: column;
+  
+}
+.Facts{
+  padding-top: 20px;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap:20px 20px;
+}
+.conjuntos{
+  display:flex;
+  flex-direction: column;
+  
+}
+.carita{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.letras{
+  color: #74C0FC;
+  font-size: 40px;
+}
